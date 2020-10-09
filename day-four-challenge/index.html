@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <div id="first-name">
+      <label for="first-name__fn">First name</label>
+      <input id="first-name__fn" type="text" placeholder="First name" />
+    </div>
+
+    <form>
+      <div id="last-name">
+        <label for="last-name__ln">Last name</label>
+        <input id="last-name__ln" type="text" placeholder="Last name" />
+      </div>
+
+      <div id="email">
+        <label for="email__e">Email</label>
+        <input id="email__e" type="email" placeholder="Email" />
+      </div>
+
+      <div id="username">
+        <label for="username__u">Username</label>
+        <input id="username__u" type="text" placeholder="Username" />
+      </div>
+
+      <div id="password">
+        <label for="password__p">Password</label>
+        <input
+          id="password__p"
+          type="password"
+          placeholder="Password"
+          minlength="10"
+          required
+        />
+      </div>
+
+      <div id="birth-date">
+        <label for="birth-date__bd">Birth date</label>
+        <input id="birth-date__bd" type="date" />
+      </div>
+
+      <div id="ask-happy">
+        <label for="ask-happy_H">How happy are you?</label>
+        <input
+          id="ask-happy_H"
+          type="range"
+          min="0"
+          max="10"
+          list="tickmarks"
+        />
+      </div>
+
+      <div id="fav-color">
+        <label for="fav-color__fc">What is your fav.color?</label>
+        <input id="fav-color__fc" type="color" />
+      </div>
+
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+
+  <datalist id="tickmarks">
+    <option value="0"></option>
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+    <option value="4"></option>
+    <option value="5"></option>
+    <option value="6"></option>
+    <option value="7"></option>
+    <option value="8"></option>
+    <option value="9"></option>
+    <option value="10"></option>
+  </datalist>
+</html>
