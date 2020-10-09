@@ -1,0 +1,50 @@
+body{
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main{
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.color-box{
+  width: 150px;
+  height: 300px;
+  border: solid 5px #FFFFFF;
+  margin:10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.color-box__text{
+  width: 155px;
+  height: 95px;
+  background-color: white;
+  position: absolute;
+  top:15px;
+  left: -2px
+}
+
+.color-box:first-child{
+  background-color: tomato;
+}
+
+.color-box:nth-child(2){
+  background-color: teal;
+}
+
+.color-box:nth-child(3){
+  background-color: burlywood;
+}
+
+.color-box:last-child{
+  background-color: thistle;
+}
+
