@@ -1,0 +1,54 @@
+.status-bar {
+  height: 100px;
+  background-color: #ffce33;
+  padding: 0px 15px;
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.status-bar__columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.status-bar__columns__column {
+  width: 33%;
+}
+
+.status-bar__columns__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__columns__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar__search {
+  position: absolute;
+  top: 80px;
+}
+
+.status-bar__search input {
+  height: 50px;
+  width: 310px;
+  border: none;
+  padding-left: 30px;
+  border-radius: 35px;
+}
+
+.status-bar__search input::placeholder {
+  opacity: 0.5;
+}
+
+.status-bar__search > button {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-color: white;
+  border: none;
+  opacity: 0.3;
+}

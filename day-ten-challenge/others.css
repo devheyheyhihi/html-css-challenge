@@ -1,0 +1,21 @@
+.others {
+  margin: 0px 17px;
+}
+
+.others__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.others__contents__column > img {
+  width: 75px;
+  height: 110px;
+  margin: 17px 25px 17px 0px;
+  border: none;
+  border-radius: 7px;
+}
+
+.others__contents__column__stars {
+  font-size: 8px;
+}

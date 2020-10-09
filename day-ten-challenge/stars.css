@@ -1,0 +1,7 @@
+.stars {
+  color: #ffce33;
+}
+
+.stars > i:last-child {
+  color: #ededed;
+}

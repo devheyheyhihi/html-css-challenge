@@ -1,0 +1,28 @@
+@import "status-bar.css";
+@import "header.css";
+@import "stars.css";
+@import "others.css";
+@import "popular-authors.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 340px;
+  height: 770px;
+}
+
+h2 {
+  font-size: larger;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: large;
+  font-weight: 500;
+}
+
+span {
+  opacity: 0.5;
+}
